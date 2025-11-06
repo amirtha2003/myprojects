@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Website</title>
+
+  <style>
+    body {
+      margin: 0;
+      background-color:white;
+    }
+
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: white;
+      padding: 20px 40px;
+    }
+
+    .logo img {
+      height: 70px;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+      align-items: center;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: black;
+      padding: 8px 12px;
+      transition: background 0.3s;
+      font-family: Arial, sans-serif;
+    }
+
+    .nav-links a:hover {
+      background-color: red;
+      border-radius: 5px;
+    }
+
+    .search-box input {
+      padding: 6px 10px;
+      border-radius: 5px;
+      border-color:black;
+    }
+
+    /* Main container */
+    .container {
+      display: flex;
+      height: 90vh;
+      width: 100%;
+    }
+
+    /* Left side */
+    .left {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 60px;
+      background-color:#e3f2fd;
+    }
+
+    .left h1 {
+      font-size: 2.5rem;
+      color: black;
+      margin-bottom: 15px;
+    }
+
+    .left h3 {
+      color: #40739e;
+      margin-bottom: 15px;
+    }
+
+    .left p {
+      color: #353b48;
+      line-height: 1.6;
+      margin-bottom: 25px;
+      max-width: 80%; /* prevents full-width stretching */
+    }
+
+    /* Right side */
+    .right {
+      flex: 1;
+      background-color:#bbdefb;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKoLEY9e618rKXfpzZXNyKovyeoL4oVJXC8A&s" alt="My Logo">
+    </div>
+    <ul class="nav-links">
+      <li><a href="#">About</a></li>
+      <li><a href="#">Education</a></li>
+      <li><a href="#">Skills</a></li>
+      <li><a href="#">Project</a></li>
+      <li><a href="#">Resume</a></li>
+      <li><a href="#">Contact</a></li>
+      <div class="search-box">
+        <input type="text" placeholder="Search...">
+      </div>
+    </ul>
+  </nav>
+
+  <!-- Two side layout -->
+  <div class="container">
+    <div class="left">
+      <h1>Hello, I'm Amirtha </h1>
+      <h3>Web Developer | Software Engineer | Learner</h3>
+      <p>
+        Welcome to my personal space on the web!
+        I love building creative and user-friendly websites using HTML, CSS, JavaScript, and Python.
+        Check out my projects and get to know me better!
+      </p>
+    </div>
+
+    <div class="right"></div>
+      <img src="C:\Users\amirt\Downloads\my image.jpeg">
+  </div>
+
+</body>
+</html>
